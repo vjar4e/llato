@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "llato"
+version = "0.1.0"
+description = "Lithuanian Language Tools"
+authors = ["Vladislav Jaronskij"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+Scrapy = "^2.11.0"
+pandas = "^2.1.2"
+scikit-learn = "^1.3.2"
+skops = "^0.9.0"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.26.0"
+plotly = "^5.18.0"
+nbformat = "^5.9.2"
+nbconvert = "^7.11.0"
+ipywidgets = "^8.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
