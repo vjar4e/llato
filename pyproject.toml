@@ -16,8 +16,11 @@ skops = "^0.9.0"
 ipykernel = "^6.26.0"
 plotly = "^5.18.0"
 nbformat = "^5.9.2"
-nbconvert = "^7.11.0"
 ipywidgets = "^8.1.1"
+jupytext = "^1.16.0"
+
+[tool.jupytext]
+formats = "ipynb,py:percent"
 
 [build-system]
 requires = ["poetry-core"]
